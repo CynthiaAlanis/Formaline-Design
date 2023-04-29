@@ -23,9 +23,9 @@ const Main = () => {
           At Formaline Design and Construction, we offer a wide range of renovation services, tailored to your specific preferences, style, and budget. 
           </p>
           <Link href='/#projects'>
-            <button className='underline text-white-800 hover:text-blue-800 visited:text-purple-600 '>
-               Check out some projects
-            </button>
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                  Click here 
+              </button>
           </Link>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
