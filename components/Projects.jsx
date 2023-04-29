@@ -11,6 +11,7 @@ import eightImg from '../public/assets/projects/8cab.JPEG'
 import nineImg from '../public/assets/projects/9.sink.JPEG'
 import Pantry from '../public/assets/projects/10.pantry.jpg'
 import Countertop from '../public/assets/projects/11.countertops.jpg'
+import Fireplace from '../public/assets/projects/12.fireplace.jpg'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -45,42 +46,42 @@ const Projects = () => {
           <ProjectItem
             title='Kitchen'
             backgroundImg={TvImg}
-            projectUrl='/twitch'
+            // projectUrl='/'
             tech='Cabinets'
 
           />
             <ProjectItem
             title='Kitchen'
             backgroundImg={sixImg}
-            projectUrl='/twitch'
+            // projectUrl='/'
             tech='Cabinets'
 
           />
             <ProjectItem
             title='Bathroom'
             backgroundImg={sevenImg}
-            projectUrl='/twitch'
+            // projectUrl='/'
             tech='Cabinets'
 
           />
             <ProjectItem
             title='Kitchen'
             backgroundImg={eightImg}
-            projectUrl='/twitch'
+            // projectUrl='/'
             tech='Cabinets'
 
           />
             <ProjectItem
             title='Bathroom'
             backgroundImg={nineImg}
-            projectUrl='/twitch'
+            // projectUrl='/'
             tech='Cabinets'
 
           />
             <ProjectItem
             title='Kitchen'
             backgroundImg={Pantry}
-            projectUrl='/netflix'
+            // projectUrl='/'
             tech='Pantry'
 
           />
@@ -89,6 +90,13 @@ const Projects = () => {
             backgroundImg={Countertop}
             projectUrl='/netflix'
             tech='Countertop'
+
+          />
+            <ProjectItem
+            title='Custom'
+            backgroundImg={Fireplace}
+            // projectUrl='/'
+            tech='Fireplace'
 
           />
         </div>
