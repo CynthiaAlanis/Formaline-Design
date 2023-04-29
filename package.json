@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "CI= next build",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next start -p $PORT"
   },
   "dependencies": {
     "firebase": "^9.8.3",
