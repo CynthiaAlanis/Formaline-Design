@@ -46,7 +46,7 @@ const Projects = () => {
 
           />
           <ProjectItem
-            title='Kitchen'
+            title='Living Room'
             backgroundImg={TvImg}
             // projectUrl='/'
             tech='Cabinets'
@@ -105,7 +105,7 @@ const Projects = () => {
             title='Custom'
             backgroundImg={Ktn}
             // projectUrl='/'
-            tech='Fireplace'
+            tech='Kitchen'
 
           />
        
