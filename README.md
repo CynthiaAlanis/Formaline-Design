@@ -3,6 +3,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Deploy on netlify
 
-[netlify Platform](https://formaline-design-and-construction.netlify.app)
+[netlify Platform](https://formalinedesign.netlify.app/)
 
 # Formaline-Design
