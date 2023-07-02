@@ -13,7 +13,8 @@ import Pantry from '../public/assets/projects/10.pantry.jpg'
 import Countertop from '../public/assets/projects/11.countertops.jpg'
 import Fireplace from '../public/assets/projects/12.fireplace.jpg'
 import Ktn from '../public/assets/projects/13.ktn.jpg'
-
+import snk from '../public/assets/projects/15.sink.jpeg'
+import stove from '../public/assets/projects/14.stove.jpeg'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -106,7 +107,18 @@ const Projects = () => {
             backgroundImg={Ktn}
             // projectUrl='/'
             tech='Kitchen'
-
+          />
+          <ProjectItem
+            title='Custom'
+            backgroundImg={snk}
+            // projectUrl='/'
+            tech='Sink'
+          />
+          <ProjectItem
+            title='Custom'
+            backgroundImg={stove}
+            // projectUrl='/'
+            tech='Stove'
           />
        
         </div>
