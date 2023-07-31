@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'  >
-        <div >
+        <div className='main'>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
@@ -23,7 +23,7 @@ const Main = () => {
           At Formaline Design and Construction, we offer a wide range of renovation services, tailored to your specific preferences, style, and budget. 
           </p>
           <Link href='/#projects'>
-              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                   Click here 
               </button>
           </Link>
