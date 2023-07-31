@@ -121,13 +121,7 @@ const Projects = () => {
             tech='Fireplace'
 
           />
-            <ProjectItem
-            title='Custom'
-            backgroundImg={Sink}
-            // projectUrl='/'
-            tech='Sink'
-
-          />
+            
                     
             <ProjectItem
             title='Custom'
@@ -136,7 +130,15 @@ const Projects = () => {
             tech='Sink'
 
           />
-                 
+
+            <ProjectItem
+            title='Custom'
+            backgroundImg={Sink}
+            // projectUrl='/'
+            tech='Sink'
+
+          />  
+          
             <ProjectItem
             title='Custom'
             backgroundImg={Stove}
