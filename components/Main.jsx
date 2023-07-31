@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+
 import { FaHouzz, FaLinkedinIn } from 'react-icons/fa';
 
 const Main = () => {

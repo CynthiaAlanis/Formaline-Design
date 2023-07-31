@@ -13,7 +13,11 @@ import Pantry from '../public/assets/projects/10.pantry.jpg'
 import Countertop from '../public/assets/projects/11.countertops.jpg'
 import Fireplace from '../public/assets/projects/12.fireplace.jpg'
 import Ktn from '../public/assets/projects/13.ktn.jpg'
+import snk from '../public/assets/projects/15.sink.jpeg'
 
+import stove from '../public/assets/projects/14.stove.jpeg'
+import bathroom1 from '../public/assets/projects/17.bathroom.jpeg'
+import bathroom2 from '../public/assets/projects/18.bathroom.jpeg'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -28,25 +32,25 @@ const Projects = () => {
           <ProjectItem
             title='Kitchen'
             backgroundImg={KtnImg}
-            projectUrl='/KtnImg'
+            // projectUrl='/KtnImg'
             tech='Remodel'
           />
           <ProjectItem
             title='Wine'
             backgroundImg={WineImg}
-            projectUrl='/kitchen'
+            // projectUrl='/kitchen'
             tech='Cabinet'
 
           />
           <ProjectItem
             title='Wall Mounted Range Hood'
             backgroundImg={FanImg}
-            projectUrl='/netflix'
+            // projectUrl='/'
             tech='Installation'
 
           />
           <ProjectItem
-            title='Kitchen'
+            title='Living Room'
             backgroundImg={TvImg}
             // projectUrl='/'
             tech='Cabinets'
@@ -105,10 +109,44 @@ const Projects = () => {
             title='Custom'
             backgroundImg={Ktn}
             // projectUrl='/'
-            tech='Fireplace'
+            tech='Kitchen'
+          />
+          <ProjectItem
+            title='Custom'
+            backgroundImg={snk}
+            // projectUrl='/'
+            tech='Sink'
 
           />
-       
+            {/* <ProjectItem
+            title='Kitchen'
+            backgroundImg={Countertop}
+            // projectUrl='/netflix'
+            tech='Countertop'
+
+          /> */}
+          <ProjectItem
+            title='Custom'
+            backgroundImg={stove}
+            // projectUrl='/'
+            tech='Stove'
+
+          />
+        
+            <ProjectItem
+            title='Custom'
+            backgroundImg={bathroom1}
+            // projectUrl='/netflix'
+            tech='Bathroom'
+
+          />
+            <ProjectItem
+            title='Custom'
+            backgroundImg={bathroom2}
+            // projectUrl='/netflix'
+            tech='Bathroom'
+
+          />
         </div>
       </div>
     </div>
