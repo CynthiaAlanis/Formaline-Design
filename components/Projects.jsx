@@ -14,7 +14,7 @@ import Countertop from '../public/assets/projects/11.countertops.jpg'
 import Fireplace from '../public/assets/projects/12.fireplace.jpg'
 import Ktn from '../public/assets/projects/13.ktn.jpg'
 import snk from '../public/assets/projects/15.sink.jpeg'
-import stove2 from '../public/assets/projects/16.stove.jpeg'
+
 import stove from '../public/assets/projects/14.stove.jpeg'
 import bathroom1 from '../public/assets/projects/17.bathroom.jpeg'
 import bathroom2 from '../public/assets/projects/18.bathroom.jpeg'
@@ -118,13 +118,13 @@ const Projects = () => {
             tech='Sink'
 
           />
-            <ProjectItem
+            {/* <ProjectItem
             title='Kitchen'
             backgroundImg={Countertop}
             // projectUrl='/netflix'
             tech='Countertop'
 
-          />
+          /> */}
           <ProjectItem
             title='Custom'
             backgroundImg={stove}
@@ -132,13 +132,7 @@ const Projects = () => {
             tech='Stove'
 
           />
-          <ProjectItem
-            title='Kitchen'
-            backgroundImg={stove2}
-            // projectUrl='/netflix'
-            tech='Countertop'
-
-          />
+        
             <ProjectItem
             title='Custom'
             backgroundImg={bathroom1}
