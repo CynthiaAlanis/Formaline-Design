@@ -13,7 +13,12 @@ import Pantry from '../public/assets/projects/10.pantry.jpg'
 import Countertop from '../public/assets/projects/11.countertops.jpg'
 import Fireplace from '../public/assets/projects/12.fireplace.jpg'
 import Ktn from '../public/assets/projects/13.ktn.jpg'
-
+import Bathroom from '../public/assets/projects/14.bathroom.jpeg'
+import Bathroom2 from '../public/assets/projects/15.bath.jpeg'
+import stove from '../public/assets/projects/17.stove.jpeg'
+import Stove from '../public/assets/projects/18.Stove.jpeg'
+import Sink from '../public/assets/projects/19.Sink.jpeg'
+import Bsink from '../public/assets/projects/16.Bsink.jpeg'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -98,14 +103,52 @@ const Projects = () => {
             title='Custom'
             backgroundImg={Fireplace}
             // projectUrl='/'
+            tech='Bathroom'
+
+          />
+            <ProjectItem
+            title='Custom'
+            backgroundImg={Bathroom}
+            // projectUrl='/'
+            tech='Bathroom'
+
+          />
+                   
+            <ProjectItem
+            title='Custom'
+            backgroundImg={Bathroom2}
+            // projectUrl='/'
             tech='Fireplace'
 
           />
             <ProjectItem
             title='Custom'
-            backgroundImg={Ktn}
+            backgroundImg={Sink}
             // projectUrl='/'
-            tech='Fireplace'
+            tech='Sink'
+
+          />
+                    
+            <ProjectItem
+            title='Custom'
+            backgroundImg={Bsink}
+            // projectUrl='/'
+            tech='Sink'
+
+          />
+                 
+            <ProjectItem
+            title='Custom'
+            backgroundImg={Stove}
+            // projectUrl='/'
+            tech='Countertops'
+
+          />
+           <ProjectItem
+            title='Custom'
+            backgroundImg={stove}
+            // projectUrl='/'
+            tech='Countertops'
 
           />
        
