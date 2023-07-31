@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import Link from 'next/link';
+
 import React from 'react';
 import KtnImg from '../public/assets/projects/1.ktn.png';
 import WineImg from '../public/assets/projects/3.wine.JPEG'
@@ -118,13 +117,7 @@ const Projects = () => {
             tech='Sink'
 
           />
-            {/* <ProjectItem
-            title='Kitchen'
-            backgroundImg={Countertop}
-            // projectUrl='/netflix'
-            tech='Countertop'
 
-          /> */}
           <ProjectItem
             title='Custom'
             backgroundImg={stove}
