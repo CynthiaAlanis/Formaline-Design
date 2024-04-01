@@ -13,7 +13,7 @@ const Main = () => {
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
           <h1 className='py-4 text-gray-700 '>
-            Hi, Welcome to <span className='text-[#5651e5]'> 
+            Hi, Welcome to <span className='text-[#6C744A]'> 
             <br/>
             Formaline Design <br/>
             & 
@@ -23,9 +23,9 @@ const Main = () => {
           At Formaline Design and Construction, we offer a wide range of renovation services, tailored to your specific preferences, style, and budget. 
           </p>
           <Link href='/#projects'>
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                  Click here 
-              </button>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+         Click Here
+         </button>
           </Link>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

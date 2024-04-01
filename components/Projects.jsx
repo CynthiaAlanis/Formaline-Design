@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+// import Image from 'next/image';
+// import Link from 'next/link';
 import React from 'react';
 import KtnImg from '../public/assets/projects/1.ktn.png';
 import WineImg from '../public/assets/projects/3.wine.JPEG'
@@ -12,12 +12,13 @@ import nineImg from '../public/assets/projects/9.sink.JPEG'
 import Pantry from '../public/assets/projects/10.pantry.jpg'
 import Countertop from '../public/assets/projects/11.countertops.jpg'
 import Fireplace from '../public/assets/projects/12.fireplace.jpg'
-import Ktn from '../public/assets/projects/13.ktn.jpg'
+import Ktn from '../public/assets/projects/20.kitchen.jpg'
 import Bathroom from '../public/assets/projects/14.bathroom.jpeg'
 import Bathroom2 from '../public/assets/projects/15.bath.jpeg'
 import stove from '../public/assets/projects/17.stove.jpeg'
 import Stove from '../public/assets/projects/18.Stove.jpeg'
 import Sink from '../public/assets/projects/19.Sink.jpeg'
+import Ksink from '../public/assets/projects/21.sink.jpg'
 import Bsink from '../public/assets/projects/16.Bsink.jpeg'
 import ProjectItem from './ProjectItem';
 
@@ -25,7 +26,7 @@ const Projects = () => {
   return (
     <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+        <p className='text-xl tracking-widest uppercase text-[#6C744A]'>
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
@@ -34,123 +35,138 @@ const Projects = () => {
             title='Kitchen'
             backgroundImg={KtnImg}
             projectUrl='/KtnImg'
-            tech='Remodel'
+            
           />
           <ProjectItem
-            title='Wine'
+            title='Wine Cabinet'
             backgroundImg={WineImg}
             projectUrl='/kitchen'
-            tech='Cabinet'
+            
 
           />
           <ProjectItem
             title='Wall Mounted Range Hood'
             backgroundImg={FanImg}
             projectUrl='/netflix'
-            tech='Installation'
+            
 
           />
           <ProjectItem
             title='Kitchen'
             backgroundImg={TvImg}
             // projectUrl='/'
-            tech='Cabinets'
+            
 
           />
             <ProjectItem
-            title='Kitchen'
+            title='Cabinets'
             backgroundImg={sixImg}
             // projectUrl='/'
-            tech='Cabinets'
+            
 
           />
             <ProjectItem
-            title='Bathroom'
+            title='Cabinets'
             backgroundImg={sevenImg}
             // projectUrl='/'
-            tech='Cabinets'
+            
 
           />
             <ProjectItem
-            title='Kitchen'
+            title='Cabinets'
             backgroundImg={eightImg}
             // projectUrl='/'
-            tech='Cabinets'
+            
 
           />
             <ProjectItem
-            title='Bathroom'
+            title='Cabinets'
             backgroundImg={nineImg}
             // projectUrl='/'
-            tech='Cabinets'
+            
 
           />
             <ProjectItem
-            title='Kitchen'
+            title='Pantry'
             backgroundImg={Pantry}
             // projectUrl='/'
-            tech='Pantry'
+            
 
           />
             <ProjectItem
             title='Kitchen'
             backgroundImg={Countertop}
             // projectUrl='/netflix'
-            tech='Countertop'
+            
 
           />
             <ProjectItem
-            title='Custom'
+            title='Bathroom'
             backgroundImg={Fireplace}
             // projectUrl='/'
-            tech='Bathroom'
+            
 
           />
             <ProjectItem
-            title='Custom'
+            title='Bathroom'
             backgroundImg={Bathroom}
             // projectUrl='/'
-            tech='Bathroom'
+           
 
           />
                    
             <ProjectItem
-            title='Custom'
+            title='Fireplace'
             backgroundImg={Bathroom2}
             // projectUrl='/'
-            tech='Fireplace'
+            
 
           />
             
                     
             <ProjectItem
-            title='Custom'
+            title='Sink'
             backgroundImg={Bsink}
             // projectUrl='/'
-            tech='Sink'
+            
 
           />
 
             <ProjectItem
-            title='Custom'
+            title='Sink'
             backgroundImg={Sink}
             // projectUrl='/'
-            tech='Sink'
+            
 
           />  
           
             <ProjectItem
-            title='Custom'
+            title='Countertops'
             backgroundImg={Stove}
             // projectUrl='/'
-            tech='Countertops'
+            
 
           />
-           <ProjectItem
-            title='Custom'
+            <ProjectItem
+            title='Countertops'
             backgroundImg={stove}
             // projectUrl='/'
-            tech='Countertops'
+            
+
+          />
+
+            <ProjectItem
+            title='Kitchen'
+            backgroundImg={Ktn}
+            // projectUrl='/'
+            
+
+          />
+            <ProjectItem
+            title='Kitchen Sink'
+            backgroundImg={Ksink}
+            // projectUrl='/'
+            
 
           />
        
